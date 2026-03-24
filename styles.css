@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #0b0b0b;
-    background: white;
+    background: rgb(247, 243, 243);
 }
 
 /* Navbar */
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #ffd700;
+    color: #f9f7f0;
 }
 
 .burger {
@@ -70,7 +70,7 @@ body {
 .hero-section p {
     font-size: 4vw; /* Ajustamos el tamaño con respecto al ancho de la pantalla */
     margin-bottom: 2rem;
-    color: #9a8e78;
+    color: #f9f6f2;
 }
 
 /* Media Queries para pantallas más pequeñas */
@@ -243,7 +243,7 @@ footer {
     background-position: center center;
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(202, 154, 35);
     padding: 100px 20px;
     z-index: 1;
     height: 100vh; /* 100% de la altura de la pantalla */
@@ -254,7 +254,7 @@ footer {
     font-size: 4em; /* Tamaño grande para el título */
     font-weight: 700; /* Peso de fuente más fuerte */
     letter-spacing: 2px; /* Espaciado entre letras */
-    text-shadow: 3px 3px 6px rgba(234, 246, 7, 0.5); /* Sombra para mejorar la legibilidad */
+    text-shadow: 3px 3px 6px rgba(254, 254, 252, 0.5); /* Sombra para mejorar la legibilidad */
     margin: 0; /* Sin márgenes extra */
     padding: 0;
 }
@@ -262,7 +262,7 @@ footer {
 .hero-section p {
     font-family: 'Roboto', sans-serif; /* Fuente limpia para el párrafo */
     font-size: 1.2em; /* Tamaño de fuente cómodo para lectura */
-    text-shadow: 2px 2px 4px rgba(229, 245, 9, 0.5); /* Sombra en el texto para mayor contraste */
+    text-shadow: 2px 2px 4px rgba(207, 221, 4, 0.5); /* Sombra en el texto para mayor contraste */
 }
 
 .hero-section a {
@@ -270,10 +270,10 @@ footer {
     font-size: 1.1em;
     padding: 10px 20px;
     background-color: #93791c; /* Un color llamativo para el botón */
-    color: rgb(9, 9, 9);
+    color: rgb(7, 7, 7);
     text-decoration: none;
     border-radius: 80px;
-    box-shadow: 0 4px 8px rgba(14, 14, 14, 0.3); /* Sombra para el botón */
+    box-shadow: 0 4px 8px rgba(248, 240, 240, 0.3); /* Sombra para el botón */
 }
 
 .hero-section a:hover {
@@ -301,7 +301,7 @@ footer {
 
 /* Estilo para los productos */
 .producto-card {
-    background-color: #0a0a0a;
+    background-color: #999999;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(203, 11, 11, 0.1);
     overflow: hidden;
@@ -321,7 +321,7 @@ footer {
 
 .producto-precio {
     font-size: 1.5em;
-    color: #FF6347;
+    color: #e2d9d7;
     font-weight: bold;
 }
 
@@ -384,13 +384,18 @@ footer {
 
 .boton-wsp {
   display: inline-block;
-  background: #efc805; /* verde WhatsApp */
-  color: rgb(17, 16, 16);
+  background:darkorange; /* verde WhatsApp */
+  color: rgb(6, 6, 6);
   text-decoration: none;
   font-weight: 600;
   padding: 12px 20px;
   border-radius: 30px;
   transition: all 0.3s ease;
+}
+
+.boton-wsp:hover {
+  background: #e09f08;
+  transform: scale(1.05);
 }
 
 .boton-wsp:hover {
