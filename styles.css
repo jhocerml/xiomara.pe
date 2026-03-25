@@ -238,7 +238,7 @@ footer {
 
 .hero-section {
     background-image: url("20.png");
-      background-size: contain; /* muestra la imagen completa */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
