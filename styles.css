@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #0b0b0b;
-    background: rgb(247, 243, 243);
+    background: rgb(251, 251, 251);
 }
 
 /* Navbar */
@@ -18,8 +18,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #080808;
-    color: rgb(244, 241, 241);
+    background: #100202;
+    color: rgb(227, 174, 14);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -28,7 +28,7 @@ body {
 .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #f7f5f1;
+    color: #fbfaf9;
 }
 
 .nav-links {
@@ -39,12 +39,12 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(251, 251, 247);
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #f9f7f0;
+    color: #e6b608;
 }
 
 .burger {
@@ -254,7 +254,7 @@ footer {
     font-size: 4em; /* Tamaño grande para el título */
     font-weight: 700; /* Peso de fuente más fuerte */
     letter-spacing: 2px; /* Espaciado entre letras */
-    text-shadow: 3px 3px 6px rgba(254, 254, 252, 0.5); /* Sombra para mejorar la legibilidad */
+    text-shadow: 3px 3px 6px rgba(10, 10, 10, 0.5); /* Sombra para mejorar la legibilidad */
     margin: 0; /* Sin márgenes extra */
     padding: 0;
 }
@@ -262,22 +262,22 @@ footer {
 .hero-section p {
     font-family: 'Roboto', sans-serif; /* Fuente limpia para el párrafo */
     font-size: 1.2em; /* Tamaño de fuente cómodo para lectura */
-    text-shadow: 2px 2px 4px rgba(207, 221, 4, 0.5); /* Sombra en el texto para mayor contraste */
+    text-shadow: 2px 2px 4px rgba(228, 229, 224, 0.5); /* Sombra en el texto para mayor contraste */
 }
 
 .hero-section a {
     font-family: 'Roboto', sans-serif; 
     font-size: 1.1em;
     padding: 10px 20px;
-    background-color: #93791c; /* Un color llamativo para el botón */
+    background-color: #f8bb05; /* Un color llamativo para el botón */
     color: rgb(7, 7, 7);
     text-decoration: none;
     border-radius: 80px;
-    box-shadow: 0 4px 8px rgba(248, 240, 240, 0.3); /* Sombra para el botón */
+    box-shadow: 0 4px 8px rgba(246, 245, 243, 0.3); /* Sombra para el botón */
 }
 
 .hero-section a:hover {
-    background-color: #211b1a; /* Color más oscuro cuando se pasa el mouse */
+    background-color: #f2e30e; /* Color más oscuro cuando se pasa el mouse */
 }
 
 /* Estilos generales para el contenedor de productos */
@@ -301,7 +301,7 @@ footer {
 
 /* Estilo para los productos */
 .producto-card {
-    background-color: #999999;
+    background-color: #2f2c2c;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(203, 11, 11, 0.1);
     overflow: hidden;
@@ -328,7 +328,7 @@ footer {
 /* Estilo para el botón */
 .producto-card .btn {
     background-color: #FF7F50;
-    color: white;
+    color: rgb(227, 247, 9);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -394,11 +394,6 @@ footer {
 }
 
 .boton-wsp:hover {
-  background: #e09f08;
-  transform: scale(1.05);
-}
-
-.boton-wsp:hover {
-  background: #1ebe5d;
+  background: #1ee008;
   transform: scale(1.05);
 }
