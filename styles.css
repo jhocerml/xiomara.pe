@@ -208,8 +208,8 @@ body {
 /* Pie de página */
 footer {
     padding: 1.5rem;
-    background: #e9dddd;
-    color: white;
+    background: #0b0b0b;
+    color: rgb(244, 241, 241);
     text-align: center;
     font-size: 1rem;
 }
