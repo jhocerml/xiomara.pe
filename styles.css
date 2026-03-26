@@ -61,6 +61,7 @@ body {
 }
 
 /* Página de bienvenida-Hero Section */
+
 .hero-section h1 {
     font-size: 8vw; /* Usamos un valor relativo */
     margin-bottom: 2rem;
@@ -235,18 +236,17 @@ footer {
         display: flex;
     }
 }
-
 .hero-section {
-    background-image: url("23.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: lightgray no-repeat center/cover;
+    color: black;
     text-align: center;
-    color: rgb(202, 154, 35);
-    padding: 100px 20px;
-    z-index: 1;
-    height: 100vh; /* 100% de la altura de la pantalla */
+    padding: 2rem;
+}
 }
 
 .hero-section h1 {
