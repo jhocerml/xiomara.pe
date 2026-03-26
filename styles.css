@@ -84,9 +84,20 @@ body {
     }
 
     .btn-primary {
-        font-size: 5vw; /* Ajustamos el tamaño del botón */
-        padding: 1rem 2rem; /* Reducimos el padding para móviles */
-    }
+    background: black;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background: #333;
+    transform: translateY(-3px);
+ }
 }
 
 /* Media query para pantallas más pequeñas (por ejemplo, teléfonos) */
