@@ -61,7 +61,6 @@ body {
 }
 
 /* Página de bienvenida-Hero Section */
-
 .hero-section h1 {
     font-size: 8vw; /* Usamos un valor relativo */
     margin-bottom: 2rem;
@@ -236,103 +235,96 @@ footer {
         display: flex;
     }
 }
+
 .hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    background: lightgray no-repeat center/cover;
-    color: black;
+    background-image: url("23.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
     text-align: center;
-    padding: 2rem;
-}
-/* página de bienvenida-Hero Section */
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    background: lightgray no-repeat center/cover;
-    color: black;
-    text-align: center;
-    padding: 2rem;
+    color: rgb(202, 154, 35);
+    padding: 100px 20px;
+    z-index: 1;
+    height: 100vh; /* 100% de la altura de la pantalla */
 }
 
 .hero-section h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-size: 4em; /* Tamaño grande para el título */
+    font-weight: 700; /* Peso de fuente más fuerte */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 3px 3px 6px rgba(10, 10, 10, 0.5); /* Sombra para mejorar la legibilidad */
+    margin: 0; /* Sin márgenes extra */
+    padding: 0;
 }
 
 .hero-section p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif; /* Fuente limpia para el párrafo */
+    font-size: 1.2em; /* Tamaño de fuente cómodo para lectura */
+    text-shadow: 2px 2px 4px rgba(228, 229, 224, 0.5); /* Sombra en el texto para mayor contraste */
 }
 
-.btn-primary {
-    background: black;
-    color: white;
-    padding: 0.8rem 1.8rem;
+.hero-section a {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background-color: #f8bb05; /* Un color llamativo para el botón */
+    color: rgb(7, 7, 7);
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 50px;
-    transition: background 0.3s, transform 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(246, 245, 243, 0.3); /* Sombra para el botón */
 }
 
-.btn-primary:hover {
-    background: #333;
-    transform: translateY(-3px);
+.hero-section a:hover {
+    background-color: #f2e30e; /* Color más oscuro cuando se pasa el mouse */
 }
 
-/* sección de tarjetas */
-.cards-container {
-    padding: 3rem;
-    background: #f9f9f9;
-}
-
-.cards-container h2 {
+/* Estilos generales para el contenedor de productos */
+.productos-container {
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    padding: 50px 20px;
 }
 
-.cards {
+.productos-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.productos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas por defecto */
+    gap: 20px;
+    padding: 0 20px;
 }
 
-.card {
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Estilo para los productos */
+.producto-card {
+    background-color: #2f2c2c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(203, 11, 11, 0.1);
     overflow: hidden;
     text-align: center;
-    transition: transform 0.3s;
-    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card img {
+.producto-card img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
 }
 
-.card h3 {
-    margin: 1rem 0;
-    font-size: 1.5rem;
+.producto-info {
+    padding: 15px;
 }
 
-.card p {
-    padding: 0 1rem 1rem;
-    font-size: 0.9rem;
+.producto-precio {
+    font-size: 1.5em;
+    color: #e2d9d7;
+    font-weight: bold;
 }
+
 /* Estilo para el botón */
 .producto-card .btn {
     background-color: #FF7F50;
@@ -399,6 +391,11 @@ footer {
   padding: 12px 20px;
   border-radius: 30px;
   transition: all 0.3s ease;
+}
+
+.boton-wsp:hover {
+  background: #1ee008;
+  transform: scale(1.05);
 }
 
 .boton-wsp:hover {
